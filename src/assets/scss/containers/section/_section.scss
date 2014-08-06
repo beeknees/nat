@@ -1,0 +1,35 @@
+/*
+
+Section
+=================
+
+*/
+
+.section { }
+
+.section-hd {
+    background-color: $brand;
+    margin-bottom: 20px;
+    padding: 9px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.section-hd_wrap {
+    margin-left: -33px;
+    position: relative;
+}
+
+.section-hd_wrap:before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 13px solid #00619f;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    z-index: -1;
+}

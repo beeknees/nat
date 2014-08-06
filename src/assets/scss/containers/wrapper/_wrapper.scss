@@ -1,0 +1,16 @@
+$width: 1000px;
+
+.wrapper {
+    width: $width; 
+    margin: 0 auto;
+    @include box-sizing();
+}
+
+.wrapper_page {
+    background: #ffffff;
+    margin-top: -1px;
+    padding: 20px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #bdbdbd;
+}

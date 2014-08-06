@@ -1,0 +1,94 @@
+/*
+
+Carousel Styles
+=================
+
+*/
+
+.js-slide {
+    opacity: 0;
+    -webkit-transistion: opacity 1.0 linear 0s;
+    transistion: opacity 1.0 linear 0s;
+}
+
+.carousel-item {
+    float: left;
+    width: 666px;
+    height: 331px;
+    position: relative;
+
+}
+
+.carousel {
+
+}
+
+.carousel-bd {
+    position: relative;
+    width: 666px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: 331px;
+}
+
+.carousel-list {
+    margin-left: 0;
+    width: 2684px; /* ? */
+}
+
+.isActive {
+    border: 5px solid red;
+}
+
+.carousel-copy {
+    background: rgba(227, 228, 228, 0.8);
+    padding: 15px; /* 16px ? */
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* slideshow image - should be its own object */
+.carousel-img { }
+
+
+/* FIX THIS */
+.pager {
+    position: relative;
+    @include clearfix();
+}
+
+.pager li {
+    float: left;
+    margin-right: 7px;
+    /*border: 3px solid #ffffff;*/
+    width: 160px;
+    position: relative;
+    @include box-sizing();
+    height: 79px;
+    overflow: hidden;
+}
+
+/*.carousel-pager * + * { margin-left: 10px; }*/
+
+.img-scale {}
+/*
+.pager .isActive,
+.pager :hover {
+    border: 3px solid $brand;
+}
+*/
+/*.carousel-thumbnail_isActive:before,
+.carousel-thumbnail:hover:before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid $brand;
+    position: absolute;
+    top: -10px;
+    left: 45%;
+}*/

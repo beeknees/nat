@@ -1,0 +1,37 @@
+/*
+
+Grid
+=================
+
+*/
+
+.grid {
+    @include clearfix();
+}
+
+.grid_divider {
+    border-top: 1px solid #cccdcd;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.grid-col + .grid-col { margin-left: 20px; }
+
+.grid-col {
+    float: left;
+    display: inline;
+    /*background: gray;*/
+}
+
+.grid-col_1of10 { width: 78px; }
+.grid-col_2of10 { width: 176px; }
+.grid-col_3of10 { width: 274px; }
+.grid-col_4of10 { width: 372px; }
+.grid-col_5of10 { width: 470px; }
+.grid-col_6of10 { width: 568px; }
+.grid-col_7of10 { width: 666px; }
+.grid-col_8of10 { width: 764px; }
+.grid-col_9of10 { width: 862px; }
+.grid-col_10of10 { width: 960px; }
+/*.grid-col_11of12 { width: 91.66%; }
+.grid-col_12of12 { width: 100%; }*/

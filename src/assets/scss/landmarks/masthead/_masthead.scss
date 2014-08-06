@@ -1,0 +1,41 @@
+/*
+
+Masthead
+=================
+
+*/
+
+.masthead { 
+    padding-top: 15px;
+}
+
+.masthead-user-nav {
+    margin-bottom: 40px;
+}
+
+.masthead-logo { 
+    display: block;
+    height: 85px; /* height of the logo image */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    direction: ltr;
+    background-clip: content-box;
+}
+
+.masthead-logo:before {
+    display: block;
+    content: url(../media/images/logo.png);
+}
+
+.masthead-search {
+    position: relative;
+    width: 268px;
+    margin-bottom: 20px;
+
+    .icon {
+        position: absolute;
+        top: 8px;
+        right: 5px; 
+    }
+}

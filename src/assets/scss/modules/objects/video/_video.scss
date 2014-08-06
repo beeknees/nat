@@ -1,0 +1,30 @@
+/*
+
+Video Styles
+=================
+
+*/
+
+.video {
+
+}
+
+.video-img {
+    width: 208px;
+    height: 155px;
+}
+
+.video-thumb {
+    position: relative;
+}
+
+.video-thumb:before {
+    display: block;
+    content: url(../media/images/icon_playVideo.png);
+  width: 20%;
+  height: 30%;
+  /*overflow: auto;*/
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}

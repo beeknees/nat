@@ -1,0 +1,76 @@
+/*
+
+Icons
+=================
+
+*/
+
+
+.icon {
+    display: inline-block;
+    background: url(../media/images/icon-sprite.png) no-repeat 0 0;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background-clip: content-box;
+    text-indent: -9999px;
+    vertical-align: middle;
+}
+
+.icon_search {
+    background-position: 0 0;
+    margin-right: 0;
+}
+
+.icon_browse {
+    background-position: -23px 0;
+    width: 18px;
+}
+
+.icon_articles {
+    background-position: -49px 0;
+    width: 18px;
+}
+
+.icon_newsletter {
+    background-position: -101px 0;
+}
+
+.icon_contests {
+    background-position: -125px 0;
+}
+
+.icon_videos {
+    background-position: -76px 0;
+    width: 18px;
+}
+
+.chiclets { }
+
+.chicletIcon {
+    display: block;
+    background: url(../media/images/icon-sprite_social.png) no-repeat;
+    width: 26px;
+    height: 26px;
+    text-indent: -9999px;
+}
+
+.chicletIcon_facebook {
+    background-position: 0 0;
+}
+
+.chicletIcon_flickr {
+    background-position: -34px 0;
+}
+
+.chicletIcon_twitter {
+    background-position: -68px 0;
+}
+
+.chicletIcon_vimeo {
+    background-position: -101px 0;
+}
+
+.chicletIcon_rss {
+    background-position: -135px 0;
+}

@@ -1,0 +1,88 @@
+/*
+
+Media Styles
+=================
+
+*/
+
+
+.media {
+    @include clearfix();
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.media-element {
+    /*vertical-align: top;*/
+    /*float: right;*/
+
+}
+
+
+
+.media-element_hasImage {
+    float: left;
+    display: inline;
+    width: 140px;
+    height: 105px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+
+.media-hd { 
+    overflow: hidden;
+}
+
+.media-img {
+    width: 420px;
+}
+
+.hdg {
+    position: relative;
+}
+
+.toggleContent,
+.media-hd:after > *:after {
+    display: inline-block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    float: right;
+}
+
+.box_hasAd {
+    background: transparent;
+    height: 201px;
+    overflow: hidden;
+}
+
+/* slideshow image - should be its own object */
+.media-img_lg {
+    width: 666px;
+    height: 331px;
+}
+
+.media-img_sm {
+    width: 73px;
+    height: 55px;
+}
+
+.video-thumb {
+    height: 155px;
+    overflow: hidden;
+    position: relative;
+    @include box-sizing();
+    overflow: hidden;
+}
+
+.video-descr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(227, 228, 228, 0.8);
+    padding: 10px 15px;
+}

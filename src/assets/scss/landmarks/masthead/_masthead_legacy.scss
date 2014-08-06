@@ -1,0 +1,26 @@
+/*
+
+Masthead
+=================
+
+*/
+
+.masthead { 
+    padding-top: 15px;
+}
+
+.masthead-user-nav {
+    margin-bottom: 40px;
+}
+
+.masthead-logo { 
+    display: block;
+    height: 85px; /* height of the logo image */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    direction: ltr;
+    background: url(../media/images/logo.png) no-repeat;
+    background-clip: content-box;
+    text-indent: -9999px;
+}

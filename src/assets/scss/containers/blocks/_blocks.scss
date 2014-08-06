@@ -1,0 +1,27 @@
+/*
+
+Blocks
+=================
+
+*/
+
+.blocks {
+    @include clearfix();
+}
+
+.blocks > * {
+    float: left;
+    display: inline;
+    width: 50%;
+}
+
+.blocks_3up > * {
+    width: 208px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.blocks_3up > *:nth-child(3n) {
+    float: right; /* to align the image with the container */
+    margin-right: 0;
+}

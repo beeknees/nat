@@ -1,0 +1,29 @@
+/*
+
+footer
+=================
+
+*/
+
+.footer {
+    background-color: #2c2c2c;
+    padding: 20px;
+}
+
+.footer-bd {
+    font-size: 12px;
+    color: #969696;
+}
+
+.chiclets {
+    @include clearfix();
+}
+
+.chiclets > * {
+    display: inline-block;
+}
+
+
+.chiclets * + * {
+    margin-left: 8px;
+}
