@@ -183,28 +183,11 @@ define(function(require, exports, module) { // jshint ignore:line
 
 
     proto.replaceSlide = function($element) {
-        // var thumbnailIndex = $('.carousel').findIndex('.pager li');
-        // console.log('index of: ', thumbnailIndex);
-        // test.addClass('test');
 
-        // var $thumbnail = $('.js-img-thumbnail');
-
-        // this.$thumbnail.eq(index).addClass('hooray');
-        // this.$clickedEl.toggleClass('isActive');
-        // console.log(index);
         this.$pagerThmb.addClass('isActive');
 
         return this;
     };
-
-
-
-
-
-
-
-
-
 
 
 
